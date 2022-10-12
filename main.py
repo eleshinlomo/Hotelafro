@@ -8,7 +8,7 @@
 
 class hotelSolution:
     def __init__(self):
-        psssssss
+        pass
 #Here is the first method that only takes info about guests.
 
 def guestInfo():
