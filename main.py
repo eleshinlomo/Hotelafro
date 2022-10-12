@@ -6,21 +6,29 @@
 
 #The main class for this program starts here. All methods for this proposed software will be defined within this class.
 
-class hotelSolution:
-    def __init__(self):
-        pass
-#Here is the first method that only takes info about guests.
+class Hotelafro:
+    def __init__(self, firstname, lastname, gender):
+        self.firstname = firstname
+        self.lastname = lastname
+        self.gender = gender
 
-def guestInfo():
-    guest_firstname= str(input("What is your First Name: "))
-    guest_lastname = str(input("What is your Last Name: "))
-    num_days = int(input("Please enter number of days guest will stay: "))
+    def info(self):
+        return "New Guest Created! NAME: {} {}, GENDER: {}".format(self.firstname, self.lastname, self.gender)
 
-    return "Here is the info you entered: NAME: {} {} NUMBER OF NIGHTS: {}".format(guest_firstname, guest_lastname, num_days)
+guest_1 = Hotelafro(input("Enter Firstname: "), input("Enter Lastname: "), input("Enter Gender: "))
+print(guest_1.info())
 
-info = guestInfo()
 
-print(info)
+
+
+
+
+
+
+
+
+
+
 
 
 
