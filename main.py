@@ -22,7 +22,7 @@ class Hotelafro:
         return "New Guest Created! NAME: {} {}, GENDER: {}".format(self.firstname, self.lastname, self.gender)
 
 
-#This line is an instance of the class that adds new guests as object to the Hotelafro class.
+#This line is an instance of the class. Adds new guests as object to the Hotelafro class.
 guest_1 = Hotelafro(input("Enter Firstname: "), input("Enter Lastname: "), input("Enter Gender: "))
 print(guest_1.info())
 
